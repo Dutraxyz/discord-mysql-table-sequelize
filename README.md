@@ -4,6 +4,7 @@ Comando base para você fazer o que pretender. Com isto você pode puxar a tabel
 OBS: Você precisa criar os modulos do seu sequelize!
 Exemplo de módulo do sequelize desta mesma tabela que está no código:
 
+```javascript
 const { Model, DataTypes, literal } = require("sequelize");
 
 
@@ -41,3 +42,4 @@ module.exports = class Character extends Model {
         );
     }
 };
+```
