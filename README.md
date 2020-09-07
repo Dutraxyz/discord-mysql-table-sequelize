@@ -1,8 +1,10 @@
 # discord-mysql-table-sequelize
-Comando base para você fazer o que pretender. Com isto você pode puxar a tabela de um MySQL pelo seu bot no discord. 
+Comando base para você fazer o que pretender. Com isto você pode puxar a tabela de um MySQL pelo seu bot no discord. Código abaixo:
+![Printscreen do código](https://cdn.discordapp.com/attachments/733857971351584838/752382819921166346/unknown.png "Tirando os dados da tabela MYSQL")
 
 OBS: Você precisa criar os modulos do seu sequelize!
 Exemplo de módulo do sequelize desta mesma tabela que está no código:
+
 
 ```javascript
 const { Model, DataTypes, literal } = require("sequelize");
